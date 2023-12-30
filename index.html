@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="./img/logo.svg" type="image/png">
+	<script src="https://kit.fontawesome.com/e2cf594ac2.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	
+	<div class="progress"></div>
+	<div class="up-but" id="up-btn" onclick='up()'><i class="fa-solid fa-arrow-up"></i></div>	
+
+<div class="wrapper">
+
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header-content">
+				<div class="header-list">
+
+					<div class="burger-menu" id="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					
+					<div class="burger-list-block"  id="menu-list"> 
+						<ul class="burger-list">
+							<li class="burger-item"><a href="">New Arrival</a></li>
+							<li class="burger-item"><a href="">Men</a></li>
+							<li class="burger-item"><a href="">Women</a></li>
+							<li class="burger-item"><a href="">Kids</a></li>
+						</ul>	
+					</div>
+					
+					<li class="header-list-item logo"><img src="./img/logo.svg" alt="nike"></li>
+
+					<div class="header-list-item account">
+						<i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- -------------------------------------------------------------- -->
+	 <main class="main">
+		<div class="main-block-1-wrap">
+			<!-- <div class="choose-color">
+				<div class="color-1" style="background: #000;"></div>
+				<div class="color-2" style="background: #fff;"></div>
+				<div class="color-3" style="background: rgb(160, 33, 33);"></div>
+				<div class="color-4" style="background: rgb(27, 27, 157);"></div>
+				<div class="color-5" style="background: rgb(16, 113, 16);"></div>
+			</div> -->
+			<div class="container">
+				<div class="block-1">
+					<div class="block-1-content-1">
+						<div class="block-1-picture">
+							<img src="./img/ezgif1.png" alt="">
+							<!-- <div class="plus-btn-1"><i class="fa-solid fa-plus" style="color: #000;"></i></div>
+							<div class="plus-btn-2"><i class="fa-solid fa-plus" style="color: #000;"></i></div> -->
+							<div class="route"><div class="line"></div></div>
+							<div class="route-btn"><img src="./img/route-btn.svg" alt=""></div>
+						</div>
+						<div class="block-1-text">
+							<div class="block-1-text-titel">AIR JORDAN 1 RETRO HIGH OG</div>
+							<div class="block-1-text-info">
+								<div class="block-1-text-info-price">$275</div>
+								<div class="block-1-text-info-size">
+									<form>
+										<label for="sizes">Size:</label>
+										<select id="size" name="sizes">
+										<option value="39">39</option>
+										<option value="40">40</option>
+										<option value="41">41</option>
+										<option value="42">42</option>
+										<option value="43">43</option>
+										<option value="44">44</option>
+										<option value="45">45</option>
+										</select>
+									</form>				
+								</div>
+							</div>
+							<div class="block-1-text-button">
+								<button class="btn">
+									<p>More Details</p>
+									<i class="fa-solid fa-arrow-right"></i>
+								</button>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+			<div class="block-1-content-2">
+				<div class="block-1-slider">
+					<div class="slider-btns">
+						<i class="fa-solid fa-arrow-left"></i>
+						<p>Previous</p>
+						<p>Next</p>
+						<i class="fa-solid fa-arrow-right"></i>
+					</div>
+					<div class="slider-body">
+						<div class="slider-item">
+							<div class="slider-picture"><img src="./img/product1.png" alt=""></div>
+							<div class="slider-titel">Nike Cosmic Unity 2</div>
+						</div>
+						<div class="slider-item">
+							<div class="slider-picture"><img src="./img/product2.png" alt=""></div>
+							<div class="slider-titel">NIKE SB Dunk High</div>
+						</div>
+						<div class="slider-item">
+							<div class="slider-picture"><img src="./img/product3.png" alt=""></div>
+							<div class="slider-titel">Nike Dynamo GO SE</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="main-block-2-wrap">
+			<div class="main-block-2-content">
+				<div class="block-2">
+					<div class="flash-1-block-2"><p>FLASH</p><p>FLASH</p><p>FLASH</p><p>FLASH</p></div>
+					<div class="flash-2-block-2"><p>FLASH</p><p>FLASH</p><p>FLASH</p><p>FLASH</p></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-block-3-wrap">
+			<div class="container">
+				<div class="main-block-3-content">
+					<h1 class="block-3-titel">THE ESSENCE <span>HANDCRAFTED</span> OF FOOTWEAR.</h1>
+					<p class="block-3-text">In terms of footwear, we are the first in Canada to have opened not simple "shops" but real company outlets that offer the same service as the artisan shops of yesteryear: this to make you go without fail every time you want to buy a pair of handmade genuine leather shoes. Without fear of making mistakes and with the certainty that you will be able to wear them comfortably from the beginning. <br/> Are you also curious to find out why hundreds of people choose us every day? </p>
+					<button class="btn">
+						<p>Find Out More</p>
+						<i class="fa-solid fa-arrow-right"></i>
+					</button>
+				</div>
+			</div>
+		</div> 
+
+		<div class="main-block-4-wrap">
+			<div class="container">
+				<div class="main-block-4-content">
+					<h1 class="block-4-titel">BEST SELLERS</h1>
+					<div class="block-4-list">
+						<div class="block-4-item">
+							<img src="./img/women.png" alt="">
+							<div class="block-4-text">women</div>
+						</div>
+						<div class="block-4-item">
+							<img src="./img/kids.png" alt="">
+							<div class="block-4-text">kids</div>
+						</div>
+						<div class="block-4-item">
+							<img src="./img/men.png" alt="">
+							<div class="block-4-text">men</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+		<div class="main-block-5-wrap">
+			<div class="container">
+				<div class="main-block-5-content">
+					<div class="block-5-titel"><span>sports</span><span>time</span></div>
+					<div class="block-5-list">
+						<div class="block-5-list-item-1">
+							<div class="block-5-item-img">
+								<img src="./img/product4.png" class="block-5-img-anim" alt="">
+								<img src="./img/desk.png" alt="">
+							</div>
+							<h2 class="block-5-item-name">Nike Air Max Plus 3</h2>
+						</div>
+						<div class="block-5-list-item-2">
+							<div class="block-5-item-img">
+								<img src="./img/product5.png" class="block-5-img-anim" alt="">
+								<img src="./img/desk.png" alt="">
+							</div>
+							<h2 class="block-5-item-name">Air Jordan 4 Retro Lightning</h2>
+						</div>
+						<div class="block-5-list-item-3">
+							<div class="block-5-item-img">
+								<img src="./img/product6.png" class="block-5-img-anim" alt="">
+								<img src="./img/desk.png" alt="">
+							</div>
+							<h2 class="block-5-item-name">Air Jordan 13 Retro Court Purple</h2>
+						</div>
+						<div class="block-5-list-item-4">
+							<div class="block-5-item-img">
+								<img src="./img/product7.png" class="block-5-img-anim" alt="">
+								<img src="./img/desk.png" alt="">
+							</div>
+							<h2 class="block-5-item-name">Air Jordan 1 AJKO Blue Red</h2>
+						</div>
+						<div class="block-5-list-item-5">
+							<div class="block-5-item-img">
+								<img src="./img/product8.png" class="block-5-img-anim" alt="">
+								<img src="./img/desk.png" alt="">
+							</div>
+							<h2 class="block-5-item-name">Yeezy Boost 350 V2 MX Rock</h2>
+						</div>
+						<div class="block-5-list-item-6">
+							<div class="block-5-item-img">
+								<img src="./img/product9.png" class="block-5-img-anim" alt="">
+								<img src="./img/desk.png" alt="">
+							</div>
+							<h2 class="block-5-item-name">Vans Old Skool Suede</h2>
+						</div>
+					</div>
+					<div class="block-5-button">
+						<button class="btn">
+							<p>Lets Discover More</p>
+							<i class="fa-solid fa-arrow-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+		 <div class="main-block-6-wrap">
+			<div class="container">
+				<div class="main-block-6-content">
+					<div class="block-6-img">
+						<img src="./img/product10.png" alt="">
+						<div class="block-6-img-deck"></div>
+					</div>
+					<div class="block-6-info">
+						<div class="block-6-title">WE PROVIDE MODERN SHOES</div>
+						<div class="block-6-text">Design for the way you live your life. Atoms are beautiful in their simplicity, supporting your feet with absolute comfort.</div>
+						<div class="block-6-button">
+							<button class="btn">
+								<p>Explore More</p>
+								<i class="fa-solid fa-arrow-right"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+		<div class="main-block-7-wrap">
+			<div class="container">
+				<div class="main-block-7-content">
+					<h2 class="block-7-titel">Our Favorite <span class="block-7-span">Nike</span> styles<span>.</span></h2>
+					<div class="block-7-list">
+						<div class="block-7-item">
+							<div class="block-7-item-info">
+								<div class="block-7-item-titel">NIKE Mercurial Superfly</div>
+								<div class="block-7-item-price">$271</div>
+								<div class="block-7-item-img"><img src="./img/product11.png" alt=""></div>
+							</div>
+						</div>
+						<div class="block-7-item">
+							<div class="block-7-item-info">
+								<div class="block-7-item-titel">NIKE Air Zoom Alphafly</div>
+								<div class="block-7-item-price">$216</div>
+								<div class="block-7-item-img"><img src="./img/product12.png" alt=""></div>
+							</div>
+						</div>
+						<div class="block-7-item">
+							<div class="block-7-item-info">
+								<div class="block-7-item-titel">NIKE Dunk High</div>
+								<div class="block-7-item-price">$187</div>
+								<div class="block-7-item-img"><img src="./img/product13.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>  
+
+		
+		<div class="main-block-8-wrap">
+			<div class="main-block-8-content">
+				<div class="block-8-img"><img src="./img/partner1.png" alt=""></div>
+				<div class="block-8-img"><img src="./img/partner2.png" alt=""></div>
+				<div class="block-8-img"><img src="./img/partner3.png" alt=""></div>
+				<div class="block-8-img"><img src="./img/partner4.png" alt=""></div>
+				<div class="block-8-img"><img src="./img/partner5.png" alt=""></div>
+				<div class="block-8-img"><img src="./img/partner6.png" alt=""></div>
+				<div class="block-8-img"><img src="./img/partner7.png" alt=""></div>
+				<div class="block-8-img"><img src="./img/partner8.png" alt=""></div>
+			</div>
+		</div>  
+	
+		
+		<div class="main-block-9-wrap">
+			<div class="container">
+				<div class="main-block-9-content">
+					<div class="block-9-info">
+						<div class="block-9-title">BEST SHOES FOR THE BEST PEOPLE</div>
+						<div class="block-9-text">Design for the way you live your life. Atoms are beautiful in their simplicity, supporting your feet with absolute comfort.</div>
+						<div class="block-9-button">
+							<button class="btn">
+								<p>Explore More</p>
+								<i class="fa-solid fa-arrow-right"></i>
+							</button>
+						</div>
+					</div>
+					<div class="block-9-imgs">
+						<div class="block-9-deck"></div>
+						<div class="block-9-imgs-wrap-1">
+							<div class="block-9-img-1"><img src="./img/shoes1.png" alt=""></div>
+						</div>
+						<div class="block-9-imgs-wrap-2">
+							<div class="block-9-img-2"><img src="./img/shoes2.png" alt=""></div>
+							<div class="block-9-img-3"><img src="./img/shoes3.png" alt=""></div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>  
+			
+		
+		<div class="main-block-10-wrap">
+			<div class="container">
+				<div class="main-block-10-content">
+					<div class="block-10-img">
+						<img src="./img/skise.png" alt="">
+					</div>
+					<div class="block-10-info">
+						<div class="block-10-title">WE ARE <span>VISIONARIES</span></div>
+						<div class="block-10-text-list">
+							<div class="block-10-text-item">Exploring the boundaries of footwear with expert design knowledge and manufacture in mind.</div>
+							<div class="block-10-text-item"><span>INSIGHTFUL CREATIVE DIRECTION</span> : Uniting Consumer Insights with progressive manufacturing methods, we create comprehensive plans to outpace your competition.</div>
+							<div class="block-10-text-item"><span>PURPOSEFUL DESIGN</span> : We create products that captivate consumers and elevate brands. applying a refined sense of beauty and style, our designs are alluring.</div>
+							<div class="block-10-text-item"><span>RELENTLESS INNOVATION</span> : We live to challenge the boundaries of convention and take advantage of every breakthrough opportunity big or small. we’ll help you define the cutting-edge of your business.</div>
+						</div>
+						<div class="block-10-button">
+							<button class="btn">
+								<p>Customization Available</p>
+								<i class="fa-solid fa-arrow-right"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+		
+		<div class="main-block-11-wrap">
+			<div class="container">
+				<div class="main-block-11-content">
+					<div class="block-11-info">
+						<h2 class="block-11-info-titel">JOIN OUR NIKECLUB & GET 15% OFF</h2>
+						<p class="block-11-info-text">Sign up for free. Join the community, Never pay for shipping.</p>
+						<div class="block-11-button">
+							<button class="btn">
+								<p>Join Us</p>
+								<i class="fa-solid fa-arrow-right"></i>
+							</button>
+						</div>
+					</div>
+					<div class="block-11-img"><img src="./img/big-logo.png" alt=""></div>
+				</div>
+			</div>
+		</div>  
+
+
+		<div class="main-block-12-wrap">
+			<div class="container">
+				<div class="main-block-12-content">
+					<div class="block-12-list-1">
+						<div class="block-12-item-1"><i class="fa-solid fa-truck" style="color: #fff;"></i></div> 
+						<div class="block-12-item-2">
+							<h2 class="block-12-item-titel">Free Delivery</h2>
+							<div class="block-12-item-text">from $29.99</div>
+						</div>
+					</div>
+					<div class="block-12-list-2">
+						<div class="block-12-item-1"><i class="fa-solid fa-stopwatch" style="color: #fff;"></i></div>
+						<div class="block-12-item-2">
+							<h2 class="block-12-item-titel">Free Withdrawal 1h</h2>
+							<div class="block-12-item-text">in store</div>
+						</div>
+					</div>
+					<div class="block-12-list-3">
+						<div class="block-12-item-1"><i class="fa-solid fa-shield-halved" style="color: #fff;"></i></div>
+						<div class="block-12-item-2">
+							<h2 class="block-12-item-titel">100% Secure Payment</h2>
+							<div class="block-12-item-text">at your service</div>
+						</div>
+					</div>
+					<div class="block-12-list-4">
+						<div class="block-12-item-1"><i class="fa-solid fa-box-open" style="color: #fff;"></i></div>
+						<div class="block-12-item-2">
+							<h2 class="block-12-item-titel">Returns & Exchanges</h2>
+							<div class="block-12-item-text">offered 365 days</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>  
+	</main> 
+	<!-- -------------------------------------------------------------- -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-main">
+					<div class="footer-block-1">
+						<div class="footer-block-1-bl">
+							<div class="footer-block-1-titel">Let’s stay in touch</div>
+							<div class="footer-block-1-email">
+								<input type="text" placeholder="Enter Email...">
+								<button>Subscribe</button>
+							</div>
+						</div>
+						<div class="footer-block-1-logo"><img src="./img/logo2.png" alt="NIKE"></div>
+					</div>
+					<div class="footer-block-2">
+						<ul class="footer-block-2-list-1">
+							<li class="footer-block-2-item-titel">SHOP</li>
+							<li class="footer-block-2-item"><a href="">Mens</a></li>
+							<li class="footer-block-2-item"><a href="">Womens</a></li>
+							<li class="footer-block-2-item"><a href="">New Arrival</a></li>
+						</ul>
+						<ul class="footer-block-2-list-2">
+							<li class="footer-block-2-item-titel">OUR SERVICES</li>
+							<li class="footer-block-2-item"><a href="">Customize your products</a></li>
+							<li class="footer-block-2-item"><a href="">Gift Card</a></li>
+							<li class="footer-block-2-item"><a href="">Maintain & Repair</a></li>
+						</ul>
+						<ul class="footer-block-2-list-3">
+							<li class="footer-block-2-item-titel">CONTACT US</li>
+							<li class="footer-block-2-item"><a href="">Find a Store</a></li>
+							<li class="footer-block-2-item"><a href="">Contact Us</a></li>
+							<li class="footer-block-2-item"><a href="">Terms & Conditions</a></li>
+						</ul>
+						<ul class="footer-block-2-list-4">
+							<li class="footer-block-2-item-titel">OUR ENTERPRISE</li>
+							<li class="footer-block-2-item"><a href="">Who are we?</a></li>
+							<li class="footer-block-2-item"><a href="">Press and news</a></li>
+							<li class="footer-block-2-item"><a href="">Our alliances</a></li>
+						</ul>
+						<ul class="footer-block-2-list-5">
+							<li class="footer-block-2-item-titel">NEED HELP ?</li>
+							<li class="footer-block-2-item"><a href="">My Account</a></li>
+							<li class="footer-block-2-item"><a href="">Shipping</a></li>
+							<li class="footer-block-2-item"><a href="">Return & Exchanges</a></li>
+							<li class="footer-block-2-item"><a href="">FAQs</a></li>
+							<li class="footer-block-2-item"><a href="">Rewards</a></li>
+							<li class="footer-block-2-item"><a href="">Loyalty program</a></li>
+							<li class="footer-block-2-item"><a href="">How to choose your product?</a></li>
+							<li class="footer-block-2-item"><a href="">Sports Trends</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="copyright"><p>2022 Nike, Inc. All Rights Reserved</p><i class="fa-regular fa-copyright"></i></div>
+					<div class="messengers">
+						<i class="fa-brands fa-youtube"></i>
+						<i class="fa-brands fa-facebook-f"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-instagram"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer> 
+	<!-- -------------------------------------------------------------- -->
+</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
